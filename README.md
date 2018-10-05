@@ -16,6 +16,8 @@ To compile and run the programs:
   * Parallel: `gcc -O3 pagerank_gs_omp.c -o pagerank_gs_omp -lm -fopenmp`
 4. Run the programs:
   * For the serial version provide as an argument the directory containing the *adj_list* and *nodes* files. E.g.
-  `$ ./pagerank_gs ./data/datasets/__computational_complexity`
-  * For the parallel version provide as the first argument the directory containing the *adj_list* and *nodes* files and as the second argument the number of CPU threads. E.g.
-  `$ ./pagerank_gs_omp ./data/datasets/__computational_complexity 4`
+   
+   `$ ./pagerank_gs ./data/datasets/__computational_complexity`
+  * For the parallel version provide as the first argument the directory containing the *adj_list* and *nodes* files and as the second argument the number of CPU threads. E.g. 
+   
+   `$ ./pagerank_gs_omp ./data/datasets/__computational_complexity 4`
